@@ -1,0 +1,30 @@
+{
+    
+    "autoload": {
+	
+        "psr-4": {
+            "Importapp\\App\\Routers\\" : "./components/Routes/",
+			"Importapp\\App\\DB\\" : "./components/DB/",
+			"Importapp\\App\\Controllers\\" : "./controllers/",
+			"Importapp\\App\\Models\\" : "./models/",
+			"Importapp\\App\\View\\Error\\" : "./views/import-layout/error/",
+			"Importapp\\App\\View\\" : "./views/import-layout/"
+			
+			
+        },
+		
+		"file": [
+			"./components/Routes/Router.php",
+			"./components/DB/Database.php",
+			"./controllers/IndexController.php",
+			"./controllers/ErrorController.php",
+			"./models/Import.php",
+			"./models/ViewResults.php",
+			"./views/import-layout/index.php",
+			"./views/import-layout/import-data-layout.php",
+			"./views/import-layout/view-results-layout.php"
+			
+		]
+		
+    }
+}
